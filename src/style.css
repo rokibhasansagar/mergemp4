@@ -2,16 +2,23 @@
 	font-family: Helvetica, Arial, sans-serif;
 }
 
-div,
-form {
+.block {
+	text-align: center;
+	width: 100%;
 	padding: 0.5em;
 }
 
-.filedrop {
-	height: 300px;
+.block + .block {
+	margin-top: 0.5em;
+}
+
+.fileDrop {
+	height: 110px;
 }
 
 .form {
+	text-align: center;
+	width: 100%;
 	background: lightskyblue;
 }
 
@@ -25,7 +32,6 @@ form {
 
 .output {
 	background: lightcyan;
-	overflow-x: scroll;
 }
 
 .output.red {
